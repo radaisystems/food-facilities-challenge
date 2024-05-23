@@ -43,4 +43,4 @@ The aspects of your code we will assess include:
 - Technical choices: do choices of libraries, databases, architecture etc. seem appropriate for the chosen application?
 
 ## What to send back to our team
-Please send an email back to your point of contact with a link to your Github project repo when done.
+Please send an email back to your point of contact with a compressed (zip) file of your Github project repo when done.
