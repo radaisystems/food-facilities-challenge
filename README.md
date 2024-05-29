@@ -1,22 +1,32 @@
 # Food Facilities Challenge
 
-Use this data set about Mobile Food Facilities in San Francisco (https://data.sfgov.org/Economy-and-Community/Mobile-Food-Facility-Permit/rqzj-sfat/data), build an application (API and UI) with the following features:
+Use this data set about Mobile Food Facilities in San Francisco (https://data.sfgov.org/Economy-and-Community/Mobile-Food-Facility-Permit/rqzj-sfat/data) to build an application. Please clarify with your recruiter first if you will be doing the Backend Focused or Frontend Focused version of the project, and what language you will be doing the challenge in. Make sure this is clear before you start this challenge.
 
+**Backend Focused Version**
+
+Your Application should have the following features:
 - Search by name of applicant. Include optional filter on "Status" field.
 - Search by street name. The user should be able to type just part of the address. Example: Searching for "SAN" should return food trucks on "SANSOME ST"
 - Given a latitude and longitude, the API should return the 5 nearest food trucks. By default, this should only return food trucks with status "APPROVED", but the user should be able to override this and search for all statuses.
   - You can use any external services to help with this (e.g. Google Maps API).
-- For the programming languages allowed we would prefer that you use the one that was discussed with the recruiter or the hiring manager. So make sure that this is clear before you start this challenge, please :) 
-- You have creative freedom to design the UI however you would like.
 - We write automated tests and we would like you to do so as well.
 
-**Bonus points:**
-- Use a frontend framework like React (for frontend focused candidates)
+*Bonus Points:*
 - Use an API documentation tool
 - Provide a dockerfile with everything necessary to run your application (for backend focused candidates)
+- Build a UI
 
-**Note**
-If you are a backend focused candidate you will primarily be evaluated on your backend work. If you are a frontend focused candidate you will primarily be evaluated on your frontend work.
+**Frontend Focused Version**
+
+Your application should have the following features:
+- Search by name of applicant. Include optional filter on "Status" field.
+- Search by street name. The user should be able to type just part of the address. Example: Searching for "SAN" should return food trucks on "SANSOME ST"
+- Build a UI using a frontend framework like React. You have creative freedom to design the UI however you would like.
+
+*Bonus points:*
+- Write automated tests
+- Use an API documentation tool
+- Build the other features listed in the Backend Focused Version
 
 ## README
 
